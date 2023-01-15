@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>GameStore</title>
+        <link rel="shortcut" href="assets/img/fav.png" type="image/x-icon">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    </head>
+
+    <body>
+        <div class="progress">
+            <div class="progress-bar" id="scroll-bar"></div>
+        </div>
+
+        <header>
+            <div class="nav container">
+                <a href="index.html" class="logo">Game<span>Store</span></a>
+
+                <div class="nav-icons">
+                    <i class="bx bx-bell bx-tada" id="bell-icon"><span></span></i>
+
+                    <div class="menu-icon">
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                        <div class="line3"></div>
+                    </div>
+                </div>
+
+                <div class="menu">
+                    <img src="assets/img/cyberpunk_menu.png" alt="">
+
+                    <div class="navbar">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#trending">Trending</a></li>
+                        <li><a href="#new">New Games</a></li>
+                    </div>
+                </div>
+
+                <div class="notification">
+                    <div class="notification-box">
+                        <i class="bx bxs-check-circle"></i>
+                        <p>Welcome to GameStore! Your virtual game library.</p>
+                    </div>
+
+                    <div class="notification-box box-color">
+                        <i class="bx bxs-x-circle"></i>
+                        <p>Can't buy games.</p>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section class="home container" id="home">
+            <img src="assets/img/cyberpunk_home.png" alt="">
+
+            <div class="home-text">
+                <h1>CITY OF THE <br> FUTURE</h1>
+                <a href="https://store.playstation.com/pt-br/product/UP4497-PPSA03974_00-0000000000000CP1" target="_blank" class="btn">Available Now</a>
+            </div>
+        </section>
+
+        <section class="trending container" id="trending">
+            <div class="heading">
+                <i class="bx bxs-flame"></i>
+                <h2>Trending Games</h2>
+            </div>
+
+            <div class="trending-content swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <img src="assets/img/eldenring.webp" alt="">
+
+                            <div class="box-text">
+                                <h2>Elden Ring</h2>
+                                <h3>RPG</h3>
+
+                                <div class="rating-download">
+                                    <div class="rating">
+                                        <i class="bx bxs-star"></i>
+                                        <span>4.7</span>
+                                    </div>
+                                    <a href="https://store.playstation.com/pt-br/product/UP0700-PPSA04610_00-ELDENRING0000000" target="_blank" class="box-btn"><i class="bx bx-shopping-bag"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <img src="assets/img/callofduty.jfif" alt="">
+
+                            <div class="box-text">
+                                <h2>COD: Modern Warfare II</h2>
+                                <h3>Action</h3>
+
+                                <div class="rating-download">
+                                    <div class="rating">
+                                        <i class="bx bxs-star"></i>
+                                        <span>4.5</span>
+                                    </div>
+                                    <a href="https://store.playstation.com/pt-br/concept/10001130" target="_blank" class="box-btn"><i class="bx bx-shopping-bag"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <img src="assets/img/godofwar.webp" alt="">
+
+                            <div class="box-text">
+                                <h2>God of War: Ragnarök</h2>
+                                <h3>Action</h3>
+
+                                <div class="rating-download">
+                                    <div class="rating">
+                                        <i class="bx bxs-star"></i>
+                                        <span>4.7</span>
+                                    </div>
+                                    <a href="https://store.playstation.com/pt-br/product/UP9000-CUSA34384_00-GOWRAGNAROK00000" target="_blank" class="box-btn"><i class="bx bx-shopping-bag"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <img src="assets/img/thelastofus.webp" alt="">
+
+                            <div class="box-text">
+                                <h2>The Last of Us Part II</h2>
+                                <h3>Action</h3>
+
+                                <div class="rating-download">
+                                    <div class="rating">
+                                        <i class="bx bxs-star"></i>
+                                        <span>4.9</span>
+                                    </div>
+                                    <a href="https://store.playstation.com/pt-br/product/UP9000-CUSA07820_00-THELASTOFUSPART2" target="_blank" class="box-btn"><i class="bx bx-shopping-bag"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <img src="assets/img/gta.webp" alt="">
+
+                            <div class="box-text">
+                                <h2>Grand Theft Auto V</h2>
+                                <h3>Action</h3>
+
+                                <div class="rating-download">
+                                    <div class="rating">
+                                        <i class="bx bxs-star"></i>
+                                        <span>4.7</span>
+                                    </div>
+                                    <a href="https://store.playstation.com/pt-br/product/UP1004-CUSA00419_00-GTAVDIGITALDOWNL" target="_blank" class="box-btn"><i class="bx bx-shopping-bag"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <img src="assets/img/stray.webp" alt="">
+
+                            <div class="box-text">
+                                <h2>Stray</h2>
+                                <h3>Adventure</h3>
+
+                                <div class="rating-download">
+                                    <div class="rating">
+                                        <i class="bx bxs-star"></i>
+                                        <span>4.8</span>
+                                    </div>
+                                    <a href="https://store.playstation.com/pt-br/product/UP2470-PPSA02100_00-STRAYSIEA0000000" target="_blank" class="box-btn"><i class="bx bx-shopping-bag"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <img src="assets/img/horizon.webp" alt="">
+
+                            <div class="box-text">
+                                <h2>Horizon Forbidden West</h2>
+                                <h3>Action</h3>
+
+                                <div class="rating-download">
+                                    <div class="rating">
+                                        <i class="bx bxs-star"></i>
+                                        <span>4.7</span>
+                                    </div>
+                                    <a href="https://store.playstation.com/pt-br/product/UP9000-CUSA28561_00-FORBIDDENWESTPS4" target="_blank" class="box-btn"><i class="bx bx-shopping-bag"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <img src="assets/img/requiem.webp" alt="">
+
+                            <div class="box-text">
+                                <h2>A Plague Tale: Requiem</h2>
+                                <h3>Adventure</h3>
+
+                                <div class="rating-download">
+                                    <div class="rating">
+                                        <i class="bx bxs-star"></i>
+                                        <span>4.7</span>
+                                    </div>
+                                    <a href="https://store.playstation.com/pt-br/product/UP4133-PPSA05366_00-APLAGUEOUTBURST0" target="_blank" class="box-btn"><i class="bx bx-shopping-bag"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="new container" id="new">
+            <div class="heading">
+                <i class="bx bx-game"></i>
+                <h2>New Games</h2>
+            </div>
+
+            <div class="new-content">
+                <div class="box">
+                    <img src="assets/img/deadspace/deadspace.webp" alt="">
+
+                    <div class="box-text">
+                        <h2>Dead Space</h2>
+                        <h3>Action</h3>
+
+                        <div class="calendar-download">
+                            <div class="calendar">
+                                <i class="bx bxs-calendar"></i>
+                                <span>27/01/2023</span>
+                            </div>
+                            <a href="games/deadspace.html" class="box-btn"><i class='bx bx-right-arrow-alt'></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="assets/img/deadisland/deadisland.webp" alt="">
+
+                    <div class="box-text">
+                        <h2>Dead Island 2</h2>
+                        <h3>Action</h3>
+
+                        <div class="calendar-download">
+                            <div class="calendar">
+                                <i class="bx bxs-calendar"></i>
+                                <span>03/02/2023</span>
+                            </div>
+                            <a href="games/deadisland.html" class="box-btn"><i class='bx bx-right-arrow-alt'></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="assets/img/hogwartslegacy/hogwartslegacy.webp" alt="">
+
+                    <div class="box-text">
+                        <h2>Hogwarts Legacy</h2>
+                        <h3>Art Deco</h3>
+
+                        <div class="calendar-download">
+                            <div class="calendar">
+                                <i class="bx bxs-calendar"></i>
+                                <span>10/02/2023</span>
+                            </div>
+                            <a href="games/hogwartslegacy.html" class="box-btn"><i class='bx bx-right-arrow-alt'></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="assets/img/skullandbones/skullandbones.jpg" alt="">
+
+                    <div class="box-text">
+                        <h2>Skull and Bones</h2>
+                        <h3>Action</h3>
+
+                        <div class="calendar-download">
+                            <div class="calendar">
+                                <i class="bx bxs-calendar"></i>
+                                <span>09/03/2023</span>
+                            </div>
+                            <a href="games/skullandbones.html" class="box-btn"><i class='bx bx-right-arrow-alt'></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="assets/img/residentevil/residentevil.webp" alt="">
+
+                    <div class="box-text">
+                        <h2>Resident Evil 4 (Remake)</h2>
+                        <h3>Action</h3>
+
+                        <div class="calendar-download">
+                            <div class="calendar">
+                                <i class="bx bxs-calendar"></i>
+                                <span>24/03/2023</span>
+                            </div>
+                            <a href="games/residentevil.html" class="box-btn"><i class='bx bx-right-arrow-alt'></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="assets/img/suicidesquad/suicidesquad.webp" alt="">
+
+                    <div class="box-text">
+                        <h2>Suicide Squad</h2>
+                        <h3>Action</h3>
+
+                        <div class="calendar-download">
+                            <div class="calendar">
+                                <i class="bx bxs-calendar"></i>
+                                <span>26/05/2023</span>
+                            </div>
+                            <a href="games/suicidesquad.html" class="box-btn"><i class='bx bx-right-arrow-alt'></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="assets/img/diablo/diablo.webp" alt="">
+
+                    <div class="box-text">
+                        <h2>Diablo IV</h2>
+                        <h3>Action</h3>
+
+                        <div class="calendar-download">
+                            <div class="calendar">
+                                <i class="bx bxs-calendar"></i>
+                                <span>06/06/2023</span>
+                            </div>
+                            <a href="games/diablo.html" class="box-btn"><i class='bx bx-right-arrow-alt'></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="assets/img/spiderman/spiderman.webp" alt="">
+
+                    <div class="box-text">
+                        <h2>Marvel's Spider-Man 2</h2>
+                        <h3>Action</h3>
+
+                        <div class="calendar-download">
+                            <div class="calendar">
+                                <i class="bx bxs-calendar"></i>
+                                <span>September</span>
+                            </div>
+                            <a href="games/spiderman.html" class="box-btn"><i class='bx bx-right-arrow-alt'></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script src="swiper-bundle.min.js"></script>
+        <script src="index.js"></script>
+    </body>
+</html>
